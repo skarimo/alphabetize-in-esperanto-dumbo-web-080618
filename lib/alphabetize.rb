@@ -4,5 +4,6 @@ def alphabetize(arr)
   alph_arr = esperanto_alphabet.split("")
   
   arr.sort_by do |words|
-    words.split('').do |letter|
+    words.split('').each do |letter|
+      
 end
