@@ -4,10 +4,11 @@ def alphabetize(arr)
   
   arr.sort_by do |words|
     words.each do |word|
-      word.split('').each do |letter|
+      word_letter = word.split('')
+        word_letter.each do |letter|
         word_idx = alph_arr.index(letter)
         word_idx
       end
     end
-end
+  end
 end
