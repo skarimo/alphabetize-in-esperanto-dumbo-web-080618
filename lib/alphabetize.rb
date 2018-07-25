@@ -4,7 +4,7 @@ def alphabetize(arr)
   alph_arr = esperanto_alphabet.split("")
   
   arr.sort_by do |words|
-    words.split('').each do |letter|
+    words.split('').collect do |letter|
       alph_arr.index(letter)
     end
   end
