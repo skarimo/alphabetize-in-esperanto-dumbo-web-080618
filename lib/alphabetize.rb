@@ -5,6 +5,7 @@ def alphabetize(arr)
   arr.sort_by do |word|
     word.each do |letter|
       word_idx = alph_arr.index(letter)
+      word_idx
     end
   end
 end
