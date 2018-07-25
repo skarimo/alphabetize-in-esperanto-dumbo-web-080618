@@ -9,5 +9,4 @@ def alphabetize(arr)
         word_idx
       end
     end
-  end
 end
