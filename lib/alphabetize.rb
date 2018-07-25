@@ -3,7 +3,7 @@ def alphabetize(arr)
   alph_arr = esperanto_alphabet.split("")
   
   arr.sort_by do |words|
-    word.each do |word|
+    words.each do |word|
       word.split('').each do |letter|
         word_idx = alph_arr.index(letter)
         word_idx
